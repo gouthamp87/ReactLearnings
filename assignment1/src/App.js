@@ -19,7 +19,7 @@ class App extends Component {
         <ButtonList/>
         <br/>
         <br/>
-        <br/>
+        {/* Refactor this code along with Button and ButtonList to be more clean and remove incrementcounter and state from this class<br/>
         <p> The below are increment counters and their sum on clicking would be displayed below </p>
         <IncrementButton initialValue={5}   onClickFunc={this.incrementCounter}/>
         <IncrementButton initialValue={10}  onClickFunc={this.incrementCounter}/>
@@ -28,7 +28,7 @@ class App extends Component {
         <IncrementButton initialValue={100} onClickFunc={this.incrementCounter}/>
         <br/>   
         <a>The sum is </a><Result counter={this.state.counter}/>
-        <br/>
+        <br/> */}
       </div>
     );
   }

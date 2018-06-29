@@ -21,7 +21,7 @@ class InputForm extends Component{
     render(){
         return(
             <div>
-                <input ref="user" type="text" name="LastName" placeholder="GitUserName"></input><br/>
+                <input ref="user" type="text" name="LastName" placeholder="GitUserName" className="Form-text"></input><br/>
                 <button type="submit" value="Get User" onClick={this.getUser}>Get GitHub User</button>
                 <CardsList cards={this.props.userCards}/>
             </div>  

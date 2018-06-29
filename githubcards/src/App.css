@@ -8,13 +8,21 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+  /* background:linear-gradient(#00ccff, #99ccff);
+  height: 240px;
+  padding: 20px; */
+  /* bottom: 240px;  */
+  
+  /* color: white; */
 }
 
+.App-header-img{
+  /* align-content: space-around; */
+  /* bott om: 20px; */
+ /* align-content: center */
+}
 .App-title {
+  padding: 20px;
   font-size: 1.5em;
 }
 
@@ -28,6 +36,9 @@
   /* height: 55px; */
 }
 
+.Form-text{
+  font-display: center;
+}
 .App-UserForms{
   align-self: center;
 }
@@ -44,4 +55,14 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+ul li{
+  color: burlywood;
+  font-size: 15px;
+}
+
+ul > li{
+  color: lightslategrey;
+  font-size: 20px;
 }

@@ -17,10 +17,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header >
-          <img src="GitHub.jpg"/>
-          <h1 className="App-title">GitHub User Cards</h1>
-        </header>
+        {/* <header className="App-header" >
+          <img src="GitHub.jpg" className="App-header-img"/>
+        </header> */}
+        <h1 className="App-title">GitHub User Cards</h1>  
         <p className="App-intro">
           Please enter the GitHub Username and fetch.
         </p>
